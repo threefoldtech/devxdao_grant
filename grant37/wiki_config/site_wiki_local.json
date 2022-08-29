@@ -1,0 +1,9 @@
+{
+	"fs_path": "../wiki",
+	"name": "grant37",
+	"domains": [
+		"grant37.threefold.me"
+	],
+	"cat":"wiki",
+	"pull": false
+}

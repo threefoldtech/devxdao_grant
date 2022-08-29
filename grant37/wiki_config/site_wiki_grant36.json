@@ -1,0 +1,11 @@
+{
+    "name": "grant36",
+    "git_url": "https://github.com/threefoldtech/grant36/tree/development/wiki",
+    "pull": false,
+    "reset": false,
+    "cat": "wiki",
+    "domains": [
+        "grant36.threefold.io"
+    ],
+    "descr": "wiki for foundation, collaborate, what if farmings, tokens"
+}
