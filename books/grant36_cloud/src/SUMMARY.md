@@ -1,6 +1,30 @@
 - [Intro](intro/grant_intro.md)
+- [Solution](solution/solution.md)
+    -[Solution TBC](solution/solution.md)
+    -[Architecture TBC](solution/architecture.md)
+    -[System Benefits TBC](solution/benefits.md)
 - [Technology](technology/technology.md)
     - [Layers](technology/layers/technology_layers.md) 
+        - [Compute](technology/primitives/compute/compute.md)
+        - [Storage](technology/qsss/qsss_home.md)
+          - [Quantum Safe Storage](technology/qsss/qsss_home.md)
+          - [Quantum Safe Filesystem](technology/qsss/qss_filesystem.md)
+          - [Quantum Safe Algo](technology/qsss/qss_algorithm.md)
+              - [Grid Primitives](technology/primitives/primitives.md)
+                 - [Kubernetes](technology/primitives/compute/zkube.md) 
+          - [ZMachine](technology/primitives/compute/zmachine.md)
+          - [CoreX](technology/primitives/compute/corex.md)
+- [Deploy]()
+	- [How to deploy: profil](weblets/weblets_profile_manager.md)
+	- [How to deploy: weblets](weblets/weblets_casper.md)
+	- [Unlock existing profile](weblets/profile_manager_unlock.md)
+
+
+
+
+
+
+
 <!-- - [GRANT description](./research_intro.md) -->
 <!-- - [Milestone 1: CasperLabs 1-click blockchain node deployment]()
 	- [Decentralised Cloud](./intro/research_intro.md)
