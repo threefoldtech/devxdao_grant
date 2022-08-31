@@ -18,10 +18,11 @@ Each eVDC as shown above is a full blown Kubernetes deployment.
 *   can be easily deployed at the edge
 *   single-tenant!
 
+<!-- 
 ### ZMachine Benefits
 
 *   [ZOS Protect](zos_protect): no hacking surface to the Zero-Nodes, integrate silicon route of trust
-*   [ZNet](znet) and [Planetary Net](planetary_network): a true global single backplane network connecting us all
+*   [ZNet](znet) and [Planetary Net](planetary_network): a true global single backplane network connecting us all -->
 
 ### Architecture
 
