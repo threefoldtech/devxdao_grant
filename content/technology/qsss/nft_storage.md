@@ -75,8 +75,7 @@ The stored data is available over multiple interfaces at once.
 | interface                  |                         |
 | -------------------------- | ----------------------- |
 | IPFS                       | ![](img/ipfs.jpg)       |
-| HyperDrive / HyperCore     | ![](img/hyperdrive.jpg) |
-| http(s) on top of FreeFlow | ![](img/http.jpg)       |
+| http(s) on top of Digital Twin | ![](img/http.jpg)       |
 | syncthing                  | ![](img/syncthing.jpg)  |
 | filesystem                 | ![](img/filesystem.jpg) |
 
@@ -85,13 +84,3 @@ This allows ultimate flexibility from enduser perspective.
 The object (video,image) can easily be embedded in any website or other representation which supports http.
 
 
-## More Info
-
-* [Zero-OS overview](zos)
-* [Quantum Safe Storage System](qsss_home)
-* [Quantum Safe Storage Algorithm](qss_algorithm)
-* [Smart Contract For IT Layer](smartcontract_it)
-
-
-
-!!!def alias:nft_storage,nft_storage_system

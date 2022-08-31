@@ -1,6 +1,18 @@
-
 - [Technology](technology/technology.md)
-    - [Layers](technology/layers/technology_layers.md) 
+    - [Technology](technology/technology.md)
+        - [Layers](technology/layers/technology_layers.md) 
+        - [Compute](technology/primitives/compute/compute.md)
+        - [Storage](technology/qsss/qsss_home.md)
+            - [Quantum Safe Storage](technology/qsss/qsss_home.md)
+            - [Quantum Safe Filesystem](technology/qsss/qss_filesystem.md)
+            - [Quantum Safe Algo](technology/qsss/qss_algorithm.md)
+		- [Grid Primitives](technology/primitives/primitives.md)
+		    - [Kubernetes](technology/primitives/compute/zkube.md) 
+            - [ZMachine](technology/primitives/compute/zmachine.md)
+            - [CoreX](technology/primitives/compute/corex.md)
+    - [Concepts](grid/concepts/concepts.md)
+        - [Cloud Units](grid/concepts/cloudunits.md)
+
 <!-- - [GRANT description](./research_intro.md) -->
 <!-- - [Milestone 1: CasperLabs 1-click blockchain node deployment]()
 	- [Decentralised Cloud](./intro/research_intro.md)

@@ -9,11 +9,11 @@ Any application which can run on linux can run on the TFGrid.
 
 ### Compute
 
-- [ZKube](zkube) : kubernetes deployment
-- [ZMachine](zmachine) : the container or virtual machine running inside ZOS
-- [CoreX](corex) : process manager (optional), can be used to get remote access to your zmachine
+- [ZKube](compute/zkube) : kubernetes deployment
+- [ZMachine](compute/zmachine) : the container or virtual machine running inside ZOS
+- [CoreX](compute/corex) : process manager (optional), can be used to get remote access to your zmachine
 
-Uses [Compute Units = CU](cloudunits).
+Uses [Compute Units = CU](../../grid/concepts/cloudunits.md).
 
 ### Storage (uses SU)
 

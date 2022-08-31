@@ -1,6 +1,6 @@
 # S3 Service
 
-If you like an S3 interface you can deploy this on top of our eVDC, it works very well together with our [quantumsafe_filesystem](quantumsafe_filesystem).
+If you like an S3 interface you can deploy this on top of our eVDC, it works very well together with our [quantumsafe_filesystem](qss_filesystem.md).
 
 A good opensource solution delivering an S3 solution is [min.io](https://min.io/).
 
@@ -12,4 +12,3 @@ A typical setup would look like:
 
 > TODO: link to manual on cloud how to deploy minio, using helm (3.0 release)
 
-!!!def alias:s3_storage
