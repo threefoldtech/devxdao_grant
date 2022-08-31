@@ -1,7 +1,11 @@
 
 # ZOS FileSystem (ZOS-FS)
 
+![](img/zosfs.png)  
+
+
 A deduped filesystem which is more efficient compared to images as used in other Virtual Machine technology.
+
 
 ## Uses FLIST Inside
 
@@ -27,11 +31,9 @@ As soon as you have the flist mounted, you can see the full directory tree, and 
 
 - Efficient usage of bandwidth makes this service perform with and without (much) bandwidth
 
-!!!include:flist_hub_
+## Flist Tool
 
-!!!def alias:flist,zos_fs,zero_is_file_system,zero_fs
+![](img/flist.png)  
 
+> to see our tool for flists see: https://hub.grid.tf/
 
-
-
-!!!include:zos_toc

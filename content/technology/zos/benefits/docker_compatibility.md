@@ -11,4 +11,3 @@ A major step in accepting and importing Docker images is to transpose docker ima
 - Easy import and transpose facility
 - deduplicated application deployment simplifying aplication image management and versioning
 
-!!!include:zos_toc

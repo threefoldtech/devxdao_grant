@@ -5,7 +5,7 @@
 
 ## TFChain / DAO 3.0.2
 
-For this phase our TFChain and TFDAO has been implemented using parity/substrate.
+For this phase our TFChain and TFDAO has been implemented using parity/TFChain.
 
 Features
 
@@ -49,5 +49,5 @@ NEW
 
 
 
-!!!def alias:tfchain_roadmap,dao_roadmap,tfdao_roadmap
+
 

@@ -8,6 +8,3 @@ The technology is designed to be redundant without having to do anything.
 
 - The virtual disk technology is  available for OEM's only, contact TF_Tech.
 
-!!!include:zos_toc
-
-!!!def alias:zos_disk,z_disk,zero_disk

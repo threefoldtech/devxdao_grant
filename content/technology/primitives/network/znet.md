@@ -31,10 +31,3 @@ As integrated with [WebGW](webgw):
 ![](img/znet_znic1.jpg)
 
 
-### Its a true peer2peer network
-
-see p2p_networking
-
-!!!def alias:zos_overlay_network,znet,zero_net,zos_net
-
-!!!include:zos_toc

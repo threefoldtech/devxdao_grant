@@ -34,6 +34,6 @@ The Prometheus ecosystem consists of multiple components, many of which are opti
 - ONLY for OEM partners today
 
 
-!!!def alias:zos_monitoring
 
-!!!include:zos_toc
+
+

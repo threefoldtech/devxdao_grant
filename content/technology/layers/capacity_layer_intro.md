@@ -1,4 +1,6 @@
-## Capacity Layer 
+## Capacity Layer
+
+![](img/architecture_why_us.jpg) 
 
 ### Zero-OS
 

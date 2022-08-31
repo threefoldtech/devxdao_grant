@@ -1,5 +1,7 @@
 ## Zero Boot
 
+![](img/boot.png)  
+
 > Zero Boot = Zero-OS boot process
 
 ZOS Boot is a boot facility that allows 3nodes to boot from network boot servers located in the TF Grid.  This boot mechanism creates as little as possible operational and administration overhead.  ZOS Boot is a crucial part for enabling autonomy by *not* having the operating system installed on local disks on 3nodes.  With a boot network facility and no local operating system files you immediate erase a number of operational and administration tasks:
@@ -39,7 +41,7 @@ The features of ZOS Boot are:
 - all server storage space is available for enduser workloads (average operating system size around 10GB)
 - bootloader is less than 1MB in size and can be presented to the servers as a PXE script, USB boot device, ISO boot image.
 
-!!!def alias:boot_process,zos_boot,z_boot,zero_boot
 
-!!!include:zos_toc
+
+
 

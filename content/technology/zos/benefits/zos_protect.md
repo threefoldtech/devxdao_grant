@@ -7,6 +7,5 @@
 - Every deployment of one or more applications starts with the creation of a (private) [znet](znet) . This private overlay network is single tenant and not connected to the public internet. Every application or service that is started in a container in this overlay network is connection to all of the other containers via a point to point, encrypted network connection.
 
 
-!!!def alias:zos_protect
 
-!!!include:zos_toc
+

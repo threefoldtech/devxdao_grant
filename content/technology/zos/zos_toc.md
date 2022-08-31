@@ -2,23 +2,36 @@
 
 ### Compute (uses CU)
 
-- [ZKube](zkube) : kubernetes deployment
-- [ZMachine](zmachine) : the container or virtual machine running inside ZOS
-- [CoreX](corex) : process manager (optional), can be used to get remote access to your zmachine
+- [ZKube](../primitives/compute/zkube.md)
+    - kubernetes deployment
+- [ZMachine](../primitives/compute/zmachine.md)
+    - the container or virtual machine running inside ZOS
+- [CoreX](../primitives/compute/corex.md) 
+    - process manager (optional), can be used to get remote access to your zmachine
 
-### Storage (uses SU)
+A 3Node is a Zero-OS enabled computer which is hosted with any of the ThreeFold Farmers.
 
-- [ZOS Filesystem](zos_fs) : deduped immutable filesystem
-- [ZOS Mount](zmount) : a part of a SSD (fast disk), mounted underneath your zmachine
-- [Quantum Safe Filesystem](!@qsss_home) : unbreakable storage system (secondary storage only)
-- [Zero-DB](zdb) : the lowest level storage primitive, is a key value stor, used underneath other storage mechanisms typically
-- [Zero-Disk](zdisk) : OEM only, virtual disk format
+### There are 4 storage mechanisms which can be used to store your data:
 
-### Network (uses NU)
+- [ZOS FS](../storage/zos_fs.md) 
+    - is our dedupe unique filesystem, replaces docker images. 
+- [ZOS Mount](../storage/zmount.md)     
+    - is a mounted disk location on SSD, this can be used as faster storage location. 
+- [Quamtum Safe Filesystem](../../qsss/qss_filesystem.md)
+    - this is a super unique storage system, data can never be lost or corrupted. Please be reminded that this storage layer is only meant to be used for secondary storage applications.
+- [ZOS Disk](../storage/zdisk.md)
+    - a virtual disk technology, only for TFTech OEM partners.
 
-- zos_net : private network between zmachines
-- [Planetary Network](planetary_network) : peer2peer end2end encrypted global network
-- [WebGateway](webgw) : interface between internet and znet
-- zos_bridge: network interface to planetary_net or public ipaddress
+### There are 4 ways how networks can be connected to a Z-Machine.
 
-<!-- - [Zero-NIC](znic) : interface to planetary network -->
+- [Planetary network](../network/planetary_network.md): 
+    - is a planetary scalable network, we have clients for windows, osx, android and iphone.
+- [ZOS Net](../network/znet.md):
+    - is a fast end2end encrypted network technology, keep your traffic between your z_machines 100% private.
+- [ZOS NIC](../network/znic.md): 
+    - connection to a public ipaddress
+- [WEB GW](../network/webgw.md): 
+    - web gateway, a secure way to allow internet traffic reach your secure Z-Machine.
+
+
+

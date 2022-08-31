@@ -33,6 +33,6 @@ As a consequence, no tcp/ip is coming in AT ALL, making the full set-up reach un
 - You don’t have to worry about ‘how to secure my DB’ as my DB is not exposed, only accessible in Wireguard private network. 
 - In containers you can specify to have specific IPv6 address, so deploy reverse proxy in container which has public access, = entry point in the network, deploy reverse tcp connection (=tcp router client), connects to the gateways and allows incoming connection. 
 
-!!!def alias:network_wall,net_wall
 
-!!!include:zos_toc
+
+

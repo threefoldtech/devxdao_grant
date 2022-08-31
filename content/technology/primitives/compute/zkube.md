@@ -27,6 +27,3 @@ Each eVDC as shown above is a full blown Kubernetes deployment.
 
 ![](img/zkube_architecture_.jpg)
 
-!!!include:zos_toc
-
-!!!def

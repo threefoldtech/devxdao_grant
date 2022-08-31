@@ -21,8 +21,9 @@ presents itself as a filesystem to the ZMachine.
 
 ### Implementation
 
-> Is using qsss inside.
+see how its implemented in:
 
-!!!include:zos_toc
+- [Quantum Safe Storage](../../qsss/qsss_home.md)
+- [Quantum Safe Filesystem](../../qsss/qss_filesystem.md)
+- [Quantum Safe Algo](../../qsss/qss_algorithm.md)
 
-!!!def alias:zstor_fs,zstor_filesystem,qsfs,quantum_safe_filesystem

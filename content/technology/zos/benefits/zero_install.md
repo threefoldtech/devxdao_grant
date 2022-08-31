@@ -1,5 +1,7 @@
 ## Zero install
 
+![](img/boot.png)  
+
 The Zero-OS is delivered to the 3Nodes over the internet network (network boot) and does not need to be installed.
 
 ### 3Node Install
@@ -17,8 +19,7 @@ The operating system is not installed on any local storage medium (hard disk, ss
 The mechanism to allow this to work in a safe and efficient manner is a ThreeFold innovation called our container virtual filesystem. 
 
 
-This is explained in more detail [in our SDK manual](flist).
+This is explained in more detail [in our SDK manual](https://library.threefold.me/info/manual/#/booting_node).
 
-!!!def alias:zero_install
 
-!!!include:zos_toc
+

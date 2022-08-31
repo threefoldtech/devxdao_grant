@@ -37,8 +37,8 @@ Uses [Network Units = SU](cloudunits).
 
 ## Zero-OS Advantages
 
-!!!include:zos_advantages
 
 
-!!!def alias:tfgrid_primitives,grid_primitives
+
+
 

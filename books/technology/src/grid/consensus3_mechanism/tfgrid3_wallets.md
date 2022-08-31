@@ -1,7 +1,7 @@
 
 # TFGrid 3.0 Wallets
 
-ThreeFold has a mobile wallet which will allow to be used on the TFChain backend (Substrate) as well as any other Money Blockchain it supports.
+ThreeFold has a mobile wallet which will allow to be used on the TFChain backend (TFChain) as well as any other Money Blockchain it supports.
 
 This provides for a very secure digital currency infrastructure with lots of advantages.
 
@@ -31,7 +31,7 @@ graph TB
     end
 
 
-    subgraph TFChain[TFGrid Blockchain on Substrate]
+    subgraph TFChain[TFGrid Blockchain on TFChain]
         Explorers[TFChain Explorers]-->TFGridDB --> BCNode
         Explorers --> BCNode
     end
@@ -59,7 +59,7 @@ graph TB
         money_blockchain_restricted_account --- guardian1 & guardian2  & guardian3
     end
 
-    subgraph consensus[Consensus Layer on Substrate]
+    subgraph consensus[Consensus Layer on TFChain]
         guardian1 --> ReputationEngine & PricingOracle
         guardian1 --> contract1[Smart Contract Vesting]
         guardian1 --> contract2[Smart Contract Minting/Farming]        
@@ -70,4 +70,3 @@ graph TB
 
 ```
 
-!!!include:consensus3_toc

@@ -2,9 +2,9 @@
 
 ## Blockchain node components
 
-!!!include:consensus3_overview_graph
 
-- A Blockchain node (= Substrate node) called TF-Chain, containing all entities interacting with each other on the TF-Grid
+
+- A Blockchain node (= TFChain node) called TF-Chain, containing all entities interacting with each other on the TF-Grid
 - An explorer = a Rest + GraphQL interface to TF-Chain (Graphql is a nice query language to make it easy for everyone to query for info)
 - Consensus Engine
   - is a Multisignature Engine running on TF-Chain
@@ -24,7 +24,7 @@
 - We keep things as simple as we can
   - Money Blockchain blockchain used to hold the money
     - Money Blockchain has all required features to allow users to manage their money like wallet support, decentralized exchange, good reporting, low transaction fees, ...
-  - Substrate based TFChain is holding the metadata for the accounts which express what we need to know per account to allow the start contracts to execute.
+  - TFChain based TFChain is holding the metadata for the accounts which express what we need to know per account to allow the start contracts to execute.
   - Smart Contracts are implemented using multisignature feature on Money Blockchain in combination with Multi Signature done by Consensus_Engine.
 - on money_blockchain:
   - each user has Money BlockchainAccounts (each of them holds money)
@@ -43,4 +43,3 @@
 
 - See [Roadmap TFChain/DAO 3.x](roadmap_tfchain3) for info of implementation.
 
-!!!include:consensus3_toc

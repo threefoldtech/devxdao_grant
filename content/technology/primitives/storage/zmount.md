@@ -6,6 +6,5 @@ The SSD storage location is mounted on a chosen path inside your Z-Machine.
 
 ![](img/zmount.jpg)
 
-!!!include:zos_toc
+> ZMounts are not incrypted, if you need security use a quantum safe filesystem.
 
-!!!def alias:zos_mount,zero_mount,z_mount

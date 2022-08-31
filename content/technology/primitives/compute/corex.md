@@ -11,6 +11,3 @@ ZMachine process manager
 - Allow to watch the logs of your processes.
 - Or use it as a web terminal (access over https to your terminal)!
 
-!!!def
-
-!!!include:zos_toc

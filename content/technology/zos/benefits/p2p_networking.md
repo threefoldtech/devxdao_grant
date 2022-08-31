@@ -1,10 +1,8 @@
-![](img/network_architecture2.jpg)
-
 # Peer2Peer Network Concept
 
-## Introduction
+![](img/network_architecture2.jpg)
 
-True peer-to-peer is a principle that exists everywhere within Threefold's technology stack, especially on its Network Architecture. Farmers produce IT capacity by connecting hardwares to the network and installing Zero-OS. The peer-to-peer network of devices forms the TF Grid. This TF Grid is a universal substrate of which a large variety of IT workloads exist and run.
+True peer-to-peer is a principle that exists everywhere within Threefold's technology stack, especially on its Network Architecture. Farmers produce IT capacity by connecting hardwares to the network and installing Zero-OS. The peer-to-peer network of devices forms the TF Grid. This TF Grid is a universal TFChain of which a large variety of IT workloads exist and run.
 
 ## Peer-to-peer networking
 
@@ -27,4 +25,3 @@ At Threefold, we are aware of the existence of private networks, IPsec, VPN, WAN
 
 ![](img/network_architecture.jpg)
 
-!!!def alias:quantumsafe_network_concept,qsn_concept

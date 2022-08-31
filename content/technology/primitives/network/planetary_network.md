@@ -1,9 +1,7 @@
-![](img/planetary_lan.jpg)
 
 # Planetary Network
 
 ![](img/planet_net_.jpg)
-
 
 The planetary network is an overlay network which lives on top of the existing internet or other peer2peer networks created. In this network, everyone is connected to everyone. End-to-end encryption between users of an app and the app running behind the network wall.
 
@@ -45,8 +43,5 @@ In addition, wireless meshing requires you to know a lot about the network aroun
 
 ![](img/planetary_net.jpg)
 
-The planetary network is a continuation & implementation of the [Yggdrasil](https://yggdrasil-network.github.io/about.html) network initiative. This technology is in beta but has been proven to work already quite well.
+The planetary network is a continuation & implementation of the [Planetary Network](https://Planetary Network-network.github.io/about.html) network initiative. This technology is in beta but has been proven to work already quite well.
 
-!!!def alias:planet_net,planetary_net,planetary_network,pan
-
-!!!include:zos_toc

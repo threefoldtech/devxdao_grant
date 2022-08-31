@@ -4,8 +4,14 @@
 
 ![](img/zero_os_overview.jpg)
 
+## ZOS compute storage overview
 
-!!!include:whatis_zos
+![](img/zos_overview_compute_storage.jpg)
+
+## ZOS network overview
+
+![](img/zos_network_overview.jpg)
+
 
 ### Imagine an operating system with the following benefits
 
@@ -28,17 +34,5 @@
 - **Simplicity**: An operating system should be simple, able to exist anywhere, for anyone, good for the planet.
 - **Stateless**. In a grid (peer-to-peer) set up, the sum of the components is providing a stable basis for single elements to fail and not bring the whole system down. Therefore, it is necessary for single elements to be stateless, and the state needs to be stored within the grid.
 
-<!-- !!!include:zos_toc -->
-
-!!!def alias:zos,zero-os,threefold_operating_system,tf_os,threefold_os
 
 
-
-<!-- 
-### Properties of Zero-OS
-
-ZOS is a very lightweight and efficient operating system. It supports a small number of _primitives_; the low-level functions it could perform natively in the operating system.
-
-There is no shell, local nor remote.
-
-It does not allow for inbound network connections to happen. -->
