@@ -33,6 +33,7 @@
             - [IAC = Infrastructure As Code](technology/smartcontract_it/smartcontract_iac.md)
     - [Concepts](grid/concepts/concepts.md)
         - [Cloud Units](grid/concepts/cloudunits.md)
+	- [Manual](technology/manual.md)
 
 
 <!-- - [Zero Hacking Surface](technology/zos/benefits/zero_hacking_surface.md) -->
