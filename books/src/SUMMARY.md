@@ -1,5 +1,5 @@
 
-- [GRANT description](./intro36/research_intro.md)
+- [GRANT description](./research_intro.md)
 - [Milestone 1: CasperLabs 1-click blockchain node deployment]()
 	- [Decentralised Cloud](./intro/research_intro.md)
 	- [Implementation](./implementation/implementation.md)
