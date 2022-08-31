@@ -1,1 +1,1 @@
-# Pruning Solution
+# Solution
