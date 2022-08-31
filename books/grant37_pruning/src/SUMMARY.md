@@ -1,4 +1,8 @@
 - [Technology](technology/technology.md)
+    - [Solution](solution/solution_.md)
+        - [Solution](solution/solution.md)
+        - [Architecture](solution/architecture.md) 
+        - [Storage System Benefits](solution/qsss_benefits.md)
     - [Technology](technology/technology.md)
         - [Layers](technology/layers/technology_layers.md) 
         - [Compute](technology/primitives/compute/compute.md)
@@ -12,6 +16,10 @@
             - [CoreX](technology/primitives/compute/corex.md)
     - [Concepts](grid/concepts/concepts.md)
         - [Cloud Units](grid/concepts/cloudunits.md)
+    - [Research](research.md) 
+        - [The Problem](industry/the_problem.md)
+        - [Analysis](industry/analysis.md)
+        
 
 <!-- - [GRANT description](./research_intro.md) -->
 <!-- - [Milestone 1: CasperLabs 1-click blockchain node deployment]()
