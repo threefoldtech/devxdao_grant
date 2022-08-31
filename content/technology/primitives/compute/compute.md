@@ -3,7 +3,7 @@
 
 ![](img/tfgrid_compute_.jpg)
 
-We are more than just Container or VM technology, see [our Beyond Container Document](beyond_containers).
+We are more than just Container or VM technology, see [our Beyond Container Document](beyond_containers.md).
 
 A 3Node is a Zero-OS enabled computer which is hosted with any of the TF_Farmers.
 
