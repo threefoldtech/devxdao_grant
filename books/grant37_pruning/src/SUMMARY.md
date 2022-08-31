@@ -1,6 +1,8 @@
 
-- [GRANT description](./research_intro.md)
-- [Milestone 1: CasperLabs 1-click blockchain node deployment]()
+- [Technology](technology/technology.md)
+    - [Layers](technology/layers/technology_layers.md) 
+<!-- - [GRANT description](./research_intro.md) -->
+<!-- - [Milestone 1: CasperLabs 1-click blockchain node deployment]()
 	- [Decentralised Cloud](./intro/research_intro.md)
 	- [Implementation](./implementation/implementation.md)
 	- [Limitations](./implementation/limitations.md)
@@ -22,4 +24,4 @@
 	- [Limitations](./implementation/limitations.md)
 	- [Conclusion](./conclusion.md)
 - [Milestone 3: CasperLabs blockchain pruning solution implementation]()
-- [acknowledgement](./acknowledgement.md)
+- [acknowledgement](./acknowledgement.md) -->
