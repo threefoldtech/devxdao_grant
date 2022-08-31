@@ -1,0 +1,275 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Architecture - DEVXDAO PRUNING GRANT 37</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../technology/technology.html">Technology</a></li><li class="chapter-item expanded "><a href="../solution/solution_.html"><strong aria-hidden="true">1.</strong> Solution</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../solution/solution.html"><strong aria-hidden="true">1.1.</strong> Solution</a></li><li class="chapter-item expanded "><a href="../solution/architecture.html" class="active"><strong aria-hidden="true">1.2.</strong> Architecture</a></li><li class="chapter-item expanded "><a href="../solution/qsss_benefits.html"><strong aria-hidden="true">1.3.</strong> Storage System Benefits</a></li></ol></li><li class="chapter-item expanded "><a href="../technology/technology.html"><strong aria-hidden="true">2.</strong> Technology</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../technology/layers/technology_layers.html"><strong aria-hidden="true">2.1.</strong> Layers</a></li><li class="chapter-item expanded "><a href="../technology/primitives/compute/compute.html"><strong aria-hidden="true">2.2.</strong> Compute</a></li><li class="chapter-item expanded "><a href="../technology/qsss/qsss_home.html"><strong aria-hidden="true">2.3.</strong> Storage</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../technology/qsss/qsss_home.html"><strong aria-hidden="true">2.3.1.</strong> Quantum Safe Storage</a></li><li class="chapter-item expanded "><a href="../technology/qsss/qss_filesystem.html"><strong aria-hidden="true">2.3.2.</strong> Quantum Safe Filesystem</a></li><li class="chapter-item expanded "><a href="../technology/qsss/qss_algorithm.html"><strong aria-hidden="true">2.3.3.</strong> Quantum Safe Algo</a></li></ol></li><li class="chapter-item expanded "><a href="../technology/primitives/primitives.html"><strong aria-hidden="true">2.4.</strong> Grid Primitives</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../technology/primitives/compute/zkube.html"><strong aria-hidden="true">2.4.1.</strong> Kubernetes</a></li><li class="chapter-item expanded "><a href="../technology/primitives/compute/zmachine.html"><strong aria-hidden="true">2.4.2.</strong> ZMachine</a></li><li class="chapter-item expanded "><a href="../technology/primitives/compute/corex.html"><strong aria-hidden="true">2.4.3.</strong> CoreX</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../grid/concepts/concepts.html"><strong aria-hidden="true">3.</strong> Concepts</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../grid/concepts/cloudunits.html"><strong aria-hidden="true">3.1.</strong> Cloud Units</a></li></ol></li><li class="chapter-item expanded "><a href="../research.html"><strong aria-hidden="true">4.</strong> Research</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../industry/the_problem.html"><strong aria-hidden="true">4.1.</strong> The Problem</a></li><li class="chapter-item expanded "><a href="../industry/analysis.html"><strong aria-hidden="true">4.2.</strong> Analysis</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">DEVXDAO PRUNING GRANT 37</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="architecture-this-grant"><a class="header" href="#architecture-this-grant">Architecture (this grant)</a></h2>
+<pre class="mermaid">graph TD
+    A[Blockchain Engine] --&gt;|Offload Data| B(Prune DB)
+    B --&gt;|WRITE PATH| C{TF FLECC Codec}
+    C --&gt;|One| D[NODE 1]
+    C --&gt;|Two| E[NODE 2]
+    C --&gt;|Three| F[NODE 3]
+    C --&gt;|Hundred| G[... 100 NODES]
+</pre>
+<p>For write path we write to e.g. 100 nodes, all over the world. This amount is configurable and also the storage policy used.</p>
+<p>Default we could use like 20 + 80, means min 20 nodes are needed to re-create the original. This means upto 60 nodes can be lost before data is lost.</p>
+<h2 id="the-prune-db"><a class="header" href="#the-prune-db">The Prune DB</a></h2>
+<p>Is a fast key value stor which can be used as backend for the storage engine of the blockchain for pruning support.</p>
+<p>This key value stor will write in local DB's (storage containers see further) which are configurable in size and can be possitioned on storage system of choice, we recommend SSD.</p>
+<p>The storage containers are cacheable, once written they can be removed, if data is needed from a contaier it will be fetched back from the FLECC CODEC in a redundant way. This will make the Prune DB caching aware and can support petabytes easily.</p>
+<pre class="mermaid">graph TD
+    A[Blockchain Engine] --&gt;|Offload Data| B(Prune DB)
+    B --&gt;|Data| C(Storage Container 100 MB)
+    B --&gt; D(Storage Container 100 MB)
+    B --&gt; E(Storage Container 100 MB)
+    B --&gt; X(metadate engine)
+    X --&gt; F(Metadata DB 1 MB)
+    X --&gt; G(Metadata DB 1 MB)
+    X --&gt; H(Metadata DB 1 MB)
+
+</pre>
+<p>Above provides for a very scalable system, the metadata DB's and DATA DB's get offloaded using the FLECC Codec towards potentially thousands of nodes on the backend.</p>
+<h2 id="self-healing-this-grant"><a class="header" href="#self-healing-this-grant">Self Healing (this grant)</a></h2>
+<p>The system should be full self healing, this means if nodes get offline, or there is data rot (corrupted data), the data needs to be corrected automatically and redistributed so that we get back to the original health of the data in line with original policy.</p>
+<h2 id="corruption-proof"><a class="header" href="#corruption-proof">Corruption Proof</a></h2>
+<p>Data should not be able to get corrupted, once corruption occurs because of network or storage subsystem the codec needs to be able to recover it right away.</p>
+<h2 id="the-write-path-is-redundant"><a class="header" href="#the-write-path-is-redundant">The write path is redundant</a></h2>
+<pre class="mermaid">graph TD
+    A[Blockchain Engine] --&gt;|Offload Data| B(Prune DB)
+    B --&gt;|RAFT CONSENSUS| C{TF FLECC Codec}
+    B --&gt;|Only 1 MASTER| D{TF FLECC Codec}
+    B --&gt;|CONSENSUS| E{TF FLECC Codec}
+    B --&gt;|CONSENSUS| F{TF FLECC Codec}
+    B --&gt;|UPTO 9 is ok| G{TF FLECC Codec}
+
+</pre>
+<p>The Consensus layer for write ath will be based on Tendermint (or alternative if CasperLabs has suggestions).</p>
+<p>The Pruning DB creates storage containers of 1-100 MB in size (configurable). Each Storage Container gets put in separate file if a configurable time interval got passed or a certain size for the storage container, default 100 MB.</p>
+<h2 id="redundancy-for-prude-db"><a class="header" href="#redundancy-for-prude-db">Redundancy for Prude DB</a></h2>
+<p>We will not make the Pruning DB active-active but this can be done as part of the next grant. For now the pruning DB will write the storage containers with data and metadata. If the node on which we do the activiation of the pruning dies then that pruning action will have to be restarted.</p>
+<p>Active-Passive clustering can be build inside the Pruding DB.</p>
+<pre class="mermaid">graph TD
+    A[Blockchain Engine] --&gt;|Offload Data| B(Master Prune DB)
+    B --&gt; |Synchronous need good network| C(Secondary Prune DB)
+    B --&gt; D(Secondary Prune DB)
+
+</pre>
+<p>Only one pruning DB is active, if the master is down, a Raft mechanism might be used (next grant) to define which DB becomes the new master.</p>
+<h2 id="each-zeros-node-can-store-500-tb"><a class="header" href="#each-zeros-node-can-store-500-tb">Each Zeros-Node can store 500 TB.</a></h2>
+<pre class="mermaid">graph TD
+    F{TF FLECC Codec} --&gt; A(NODE 1 HD ZDB)
+    F{TF FLECC Codec} --&gt; B(NODE 1 HD ZDB)
+    F{TF FLECC Codec} --&gt; C(NODE 1 HD ZDB)
+
+</pre>
+<p>100+ ZDB's can be used by 1 codec, the codec will make sure that data is spread out good enough.</p>
+<h2 id="read-path"><a class="header" href="#read-path">Read Path</a></h2>
+<p>The read path is different and redundant by design. Thanks to the FLECC Codec we can read data from hundred of sources and this can happen by many readers at the same time.</p>
+<pre class="mermaid">graph TD
+    P1(Prune DB US) ---|READ| F
+    P2(Prune DB CH) ---|READ| F
+    P3(Prune DB DUBAI) ---|READ| F
+    P4(Prune DB TORONTO) ---|READ| F
+    F{TF FLECC Codec} --- A(NODE 1 DUBAI HD ZDB)
+    F --- B(NODE 2 BE HD ZDB)
+    F --- C(NODE 3 US HD ZDB)
+
+</pre>
+<p>This leads to the fastest possible way how to retrieve data so the prune DB can retrieve the data it needs.</p>
+<p>Once a storage container is retrieved it will stay in cache untill no longer needed.</p>
+<p>The caching layer needs to be intelligent to delete the right files as much as possible.</p>
+<h2 id="read-optimization-grant-future"><a class="header" href="#read-optimization-grant-future">Read Optimization (Grant Future)</a></h2>
+<p>We can implement a system which will allow a faster retrievel, in the suggested system we only need to retrieve 20 files from the 100 ZDB's (backend DB's), what if the system would be smart enough to figure out which files to retrieve first and depending who answers fastest the data can be rebuild to have back the original data. It could work with e.g 50 of the 100, the first 20 who deliver allow the data to be retrieved, this would dramaically speed up retrieval and data would come from latency locations close by.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../solution/solution.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../solution/qsss_benefits.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../solution/solution.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../solution/qsss_benefits.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        <script type="text/javascript" src="../mermaid.min.js"></script>
+        <script type="text/javascript" src="../mermaid-init.js"></script>
+
+
+    </body>
+</html>
