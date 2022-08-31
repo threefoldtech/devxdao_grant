@@ -1,1 +1,0 @@
-!!!include:manual3_home_new

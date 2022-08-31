@@ -1,0 +1,230 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>tf_quantum_safe_storage</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../intro36/research_intro.html"><strong aria-hidden="true">1.</strong> GRANT description</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.</strong> Milestone 1: CasperLabs 1-click blockchain node deployment</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro/research_intro.html"><strong aria-hidden="true">2.1.</strong> Decentralised Cloud</a></li><li class="chapter-item expanded "><a href="../implementation/implementation.html"><strong aria-hidden="true">2.2.</strong> Implementation</a></li><li class="chapter-item expanded "><a href="../implementation/limitations.html"><strong aria-hidden="true">2.3.</strong> Limitations</a></li><li class="chapter-item expanded "><a href="../conclusion.html"><strong aria-hidden="true">2.4.</strong> Conclusion</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.</strong> Milstone 2: CasperLabs blockchain pruning solution design</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../intro37/research_intro.html"><strong aria-hidden="true">3.1.</strong> Intro</a></li><li class="chapter-item expanded "><a href="../status_quo/status_quo_intro.html"><strong aria-hidden="true">3.2.</strong> Status Quo</a></li><li class="chapter-item expanded "><a href="../literature/literature.html"><strong aria-hidden="true">3.3.</strong> Literature</a></li><li class="chapter-item expanded "><a href="../decentralized_cloud/decentralized_cloud.html"><strong aria-hidden="true">3.4.</strong> Decentralized Cloud</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../solution/tf_quantum_safe_storage.html" class="active"><strong aria-hidden="true">3.4.1.</strong> tf_quantum_safe_storage</a></li><li class="chapter-item expanded "><a href="../requirements/requirements.html"><strong aria-hidden="true">3.4.2.</strong> requirements</a></li></ol></li><li class="chapter-item expanded "><a href="../research/research.html"><strong aria-hidden="true">3.5.</strong> Research</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../research/deployment/casper_deployment.html"><strong aria-hidden="true">3.5.1.</strong> casper_deployment</a></li><li class="chapter-item expanded "><a href="../research/qsfs_performance.html"><strong aria-hidden="true">3.5.2.</strong> qsfs_performance</a></li><li class="chapter-item expanded "><a href="../research/storage_integration.html"><strong aria-hidden="true">3.5.3.</strong> storage_integration</a></li></ol></li><li class="chapter-item expanded "><a href="../solution/solution.html"><strong aria-hidden="true">3.6.</strong> Solution</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../solution/tf_quantum_safe_storage.html" class="active"><strong aria-hidden="true">3.6.1.</strong> tf_quantum_safe_storage</a></li></ol></li><li class="chapter-item expanded "><a href="../implementation/implementation.html"><strong aria-hidden="true">3.7.</strong> Implementation</a></li><li class="chapter-item expanded "><a href="../implementation/limitations.html"><strong aria-hidden="true">3.8.</strong> Limitations</a></li><li class="chapter-item expanded "><a href="../conclusion.html"><strong aria-hidden="true">3.9.</strong> Conclusion</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.</strong> Milestone 3: CasperLabs blockchain pruning solution implementation</div></li><li class="chapter-item expanded "><a href="../acknowledgement.html"><strong aria-hidden="true">5.</strong> acknowledgement</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <blockquote>
+<p>needs to be put in bigger context, more include from TF</p>
+</blockquote>
+<h4 id="threefolds-qsfs-as-a-basic-building-block-for-blockchain-pruning"><a class="header" href="#threefolds-qsfs-as-a-basic-building-block-for-blockchain-pruning">ThreeFolds QSFS as a basic building block for blockchain pruning?</a></h4>
+<p>QSFS stands for Quantum-Safe File System. It is a redundant filesystem, which can store petabytes of information.</p>
+<p>Unique features are : </p>
+<ul>
+<li>Unlimited scalable (many petabytes) filesystem</li>
+<li>Data is spread over many devices owned by different, independent hardware owners called farmers. Together, these farmers provide the capacity to a hardware grid, call the ThreeFold Grid. </li>
+<li>Dispersion over multiple sites ensures 100% privacy of the data, as no farmer knows what the data is about (zero knowledge storage system). Even a quantum computer cannot decrypt the data on a node, as one node contains insufficient information to unambiguously recreate the authentic data.</li>
+<li>Data can’t be lost: there is a protection for datarot, data will auto-repair.</li>
+<li>Data is append-only and immutable by design of the protocol, so it’s fit for storing ledger history. Even with sites going down, data is not lost with ‘operational’ backup nodes in place.</li>
+<li>Up to 10x more efficient than storing on classic storage cloud systems. Overhead of about 20% is sufficient to have a secure archive.</li>
+<li>Can be mounted as filesystem on any OS or any deployment system (OSX, Linux, Windows, Docker, Kubernetes, TFGrid, ...).</li>
+<li>It is compatible with +/- all data workloads (exception: high performance data driven workloads like a database).</li>
+<li>Self-healing: when node or disk lost, storage system can get back to original redundancy level.</li>
+<li>Helps with compliance to privacy regulations like GDPR (as the hosting facility has no view on what is stored, information is encrypted and incomplete).</li>
+<li>Hybrid : can be installed onsite, public, private, ...</li>
+<li>Read-write caching on encoding node (the front end).</li>
+</ul>
+<h4 id="threefold-qsfs-sub-components"><a class="header" href="#threefold-qsfs-sub-components">ThreeFold QSFS sub-components</a></h4>
+<p>QSFS being a prime candidate to consider for blockchain pruning purposes has a number of sub-components that can be put to use for achieving the pruning solution.  Here's a brief description of some of these:</p>
+<h5 id="0-db-storage-engine"><a class="header" href="#0-db-storage-engine">0-db storage engine</a></h5>
+<p>This is an always-append database, which stores objects in an immutable format, which allows to have history out-of-the-box, good performance on disk, low overhead, easy data structure, easy backup (linear copy and immutable files).
+We use two types of 0-db: </p>
+<ul>
+<li>One for the storage backend </li>
+<li>One for 0-db-fs, which is where data needs to be, to be available via the fuse filesystem. This 0-db can offload its data to an external process (user-defined) and can also request missing data to be retrieved, if some data are missing.</li>
+</ul>
+<p>This enables the database to spread and not always use local storage space if data is not read.</p>
+<p>One external process to handle these cases is 0-stor-v2.</p>
+<h5 id="0-db-fs-fuse-layer-which-uses-the-storage-engine-in-an-optimized-way"><a class="header" href="#0-db-fs-fuse-layer-which-uses-the-storage-engine-in-an-optimized-way">0-db-fs FUSE layer which uses the storage engine in an optimized way</a></h5>
+<p>This is a simple filesystem driver which uses 0-db as the primary storage engine.
+Directories and metadata are stored in a dedicated namespace, file payloads are saved in another dedicated namespace.
+The filesystem uses an internal cache system made, not for performance, but to optimize how data is stored in the 0-db, to avoid overhead as much as possible.</p>
+<h5 id="0-stor-v2-engine-to-savebackup-data-to-safe-location"><a class="header" href="#0-stor-v2-engine-to-savebackup-data-to-safe-location">0-stor-v2 engine to save/backup data to safe location</a></h5>
+<p>This tool can be used as external process for 0-db, or can be used for any purpose. It just takes one file as input, it encrypts this file in AES based on a key user-defined, encodes the file and spreads the data to multiple 0-db’s. Based on the policy (configurable), some amount of 0-db’s can be unreachable, data can still retrieved and missing database can even be rebuilt to keep full consistency available.</p>
+<p>Metadata needed to get data back from 0-db in the right order, are stored in others 0-db.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../decentralized_cloud/decentralized_cloud.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../requirements/requirements.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../decentralized_cloud/decentralized_cloud.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../requirements/requirements.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>
