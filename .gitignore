@@ -157,5 +157,5 @@ _docs/
 .DS_Store
 node_modules/
 
-book/
 
+books/
