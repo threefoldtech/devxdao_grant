@@ -2,7 +2,8 @@
 
 Thank you 
 
-Kristof
-Scott
-Geert
-ThreeFold engineering (Lee, Dylan, ...)
+- Kristof
+- Scott
+- Geert
+- Weynand
+- ThreeFold engineering (Lee, Dylan, Maxime, Azmy...)

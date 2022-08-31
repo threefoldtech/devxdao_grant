@@ -10,4 +10,4 @@ From the [LMDB](http://www.lmdb.tech/doc/index.html) *LMDB is a Btree-based data
 
 *The memory map can be used as a read-only or read-write map. It is read-only by default as this provides total immunity to corruption. Using read-write mode offers much higher write performance, but adds the possibility for stray application writes thru pointers to silently corrupt the database. Of course if your application code is known to be bug-free (...) then this is not an issue.*
 
-The LMDB technology is being used by a number of layer-1 projects. CasperLabs uses [LMDB](https://medium.com/casperlabs/casperlabs-releases-node-0-3-c3a1adb2d645) which provides a DB backup facility that could be useful in an archiving application.
+The LMDB technology is being used by a number of layer-1 projects. CasperLabs uses [LMDB](https://medium.com/casperlabs/casperlabs-releases-node-0-3-c3a1adb2d645) which provides some features we can tap into to provide pruning support.
