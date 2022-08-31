@@ -1,11 +1,8 @@
 # Quantum Safe Storage Algoritm
 
-![](img/tf_banner_grid_.jpg)
+![](img/qss_scaleout.png)  
 
 The Quantum Safe Storage Algorithm is the heart of the Storage engine.  The storage engine takes the original data objects and creates data part descriptions that it stores over many virtual storage devices (ZDB/s)
-
-
-![](../img/.jpg)
 
 Data gets stored over multiple ZDB's in such a way that data can never be lost.
 
@@ -14,7 +11,7 @@ Unique features
 - data always append, can never be lost
 - even a quantum computer cannot decrypt the data
 - is spread over multiple sites, sites can be lost, data will still be available
-- protects for [datarot](datarot)
+- protects for datarot.
 
 ### Why
 

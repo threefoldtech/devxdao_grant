@@ -25,16 +25,11 @@ This enables a complete peer-to-peer environment for people to reserve their Int
 
 ### Smart Contract for IT 
 
-The purpose of the smart contract for IT is to create and enable autonomous IT. Autonomous self-driving IT is possible when we adhere to two principles from start:
+The purpose of the smart contract for IT is to create and enable autonomous IT. Autonomous self-driving IT is possible.
 
-1. Information technology architectures are configured and installed by bots (a ‘smart contract agent’), not people.
-2. Human beings cannot have access to these architectures and change things.
+Once a smart contract for IT is created, it will be registered in the TFChain Blockchain.
 
-While sticking to these principles, it provides the basis to consider and describe everything in a contract type format and to deploy any self-driving and self-healing application on the ThreeFold_Grid.
-
-Once the smart contract for IT is created, it will be registered in the Blockchain Database in a complete end-to-end process. It will also leave instructions for the 3Nodes in a digital notary system for them to grab the necessary instructions and complete the smart contract.
-
-Learn more about smart contract for IT [here](smartcontract_it).
+Learn more about smart contract for IT [here](../smartcontract_it/smartcontract_tfgrid3.md).
 
 ### TFChain
 
