@@ -1,5 +1,13 @@
 # devxdao_grant
 
+## The Books
+
+- https://threefoldtech.github.io/devxdao_grant/grant36  (deployment on TFGrid)
+- https://threefoldtech.github.io/devxdao_grant/grant37  (pruning)
+- https://threefoldtech.github.io/devxdao_grant/tech (ThreeFold Technology Overview)
+
+## Remarks
+
 The "One click blockchain node deployment" has been developed and impleemented.
 - Documentation: https://library.threefold.me/info/manual/#/manual__weblets_casper
 - Implemented: https://play.grid.tf/#/casperlabs
@@ -7,6 +15,7 @@ The "One click blockchain node deployment" has been developed and impleemented.
 The blokchain pruning solution whitepaper is being created and technology parts and building blocks have been developped.
 
 # How to use the repo.
+
 - All content is in the content directory
 - All books are in the books directory -> for now there is only one book, going forward we might want to make more books (summary only, single grant only etc).
 - In the book directory the src directoty has symlinks to the content directory 
