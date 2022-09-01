@@ -55,7 +55,8 @@ we can also opt to embed 0-stor (as we only need the core
 functionality).
 
 > todo: research storage layer of casper, put all findings here
-=======
+
+
 ## Aim 
 
 
@@ -76,7 +77,8 @@ At Threefold, we already developed a solution which achieves most of this in [0-
 - [x] how to manipulate positioning of the bigger files -> Not relevant
 - [x] are the large blocks the same ? -> Not relevant
 - [ ] need to know how consensus has been achieved
-=======
+
+
 ### Limit to historic state 
 
 
@@ -87,7 +89,8 @@ Historic data is composed of data which is no longer accessed by the network its
 
 [lmdb]: http://www.lmdb.tech/doc/index.html
 [bincode]: https://github.com/bincode-org/bincode
-=======
+
+
 ### File encoding 
 
 Since Casper's current blockchain storage implementation is based on [lmdb], which operates on a

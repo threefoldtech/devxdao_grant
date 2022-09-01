@@ -3,7 +3,7 @@ authors = ["Weynand Kuijpers"]
 language = "en"
 multilingual = false
 src = "src"
-title = "devxdao grant36"
+title = "devxdao grant 36"
 
 [preprocessor]
 
