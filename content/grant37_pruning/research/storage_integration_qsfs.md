@@ -1,4 +1,4 @@
-# Storage Integration
+# Casperlabs Storage Integration QSFS
 
 Casper uses [lmdb] for the persistent storage in their blockchain. Lmdb,
 an in process key-value store, saves its data in __a single file__ on
