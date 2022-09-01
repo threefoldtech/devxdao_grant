@@ -1,4 +1,3 @@
-
 # Research Intro
 
 This research document represents the first milestone in the grant that has been awarded by DEVxDAO. This document will lay out the challenges that need to be overcome to create a lasting generic solution for the blockchain forever growing data storage problem and then identifies solution paths to this challenge. This document will present a number of solution paths to be looked at and then, as a conclusion, a proof of the solution will be implemented in milestone 2 of this grant.  
@@ -26,9 +25,3 @@ Possible solutions may defer the problem into the future (compression of data) o
 Many protocols already offer "pruning" features within their node software, so that while the full chain is downloaded and verified, only the newest blocks are retained. These nodes are able to participate in consensus and provide a secure way to interact with the network, but they offer limited benefit in the securing and maintaining of the chain.
 
 Implementations and deployments of decentralized systems like DAOs rely on blockchains for smart contract and transaction storage are expected to grow exponentially. In order for these systems to remain secure and truly decentralized, a solution is needed.
-
-
-<!-- 
-- [casper_deployment](@casper_deployment)
-- [qsfs_performance](@qsfs_performance)
-- [storage_integration](@storage_integration) -->
