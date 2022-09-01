@@ -46,15 +46,14 @@ Our Solution is
 
 >TODO: fix
 
-- Milestone title: Initial pruning research document
+- Milestone title: Create the ability to run layer-1 blockchain nodes on the ThreeFold Technology grid.
+- 
 - The portion that the OP is requesting from the total grant for the milestone: 
     - USD 250.000 (was $100k originally)
 - Due date: 
     - done
 - Details of what will be delivered:
-    - prove Layer-1 blockchain thin provisioning can be done (this is a massive achievent and has incredible benefits for the industry)
-    - prove Layer-1 blockchain pruning can be done, come up with required architecture
-    - solution for thin provisioning based on threefold quantum safe filesystem (this requires changes in this system)
+    - prove Layer-1 blockchain thin provisioning can be done (this is a massive achieved and has incredible benefits for the industry)
     - Initial research will be done with the Casper Labs Layer-1 protocol and also some other blockchains.
     - Create the solution which allows everyone to verify thin provisioning can be done.
 
@@ -75,7 +74,7 @@ Our Solution is
 - [X] link to required technology parts as provided by ThreeFold, see if we can use those solutions and what benefit would be
 - [X] do all required work to let it work on ThreeFold Grid
 
-## Milestone 2 (100% done) = 150k USD
+## Milestone 2 (ready to be executed) = 250k USD
 
 >TODO: fix
 
