@@ -65,21 +65,30 @@ This technology based will be used to create a distributed and decentralized clo
 
 > we hope that the reader can see how this work has an incredible potential for the blockchain industry. We have been able to show how blockchains can be deployed on a decentralized grid and helps to achieve reliability, security, privacy and scalability.
 
-- [X] provisioning solution can  deploy blockchain nodes and this can be done by everyone
+- [X] provisioning solution can deploy blockchain nodes and this can be done by everyone
 - [X] see how the provisioning method (1-click) cuts heavily on complexity
-- [X] deploy a large blockchain in less than 1h which would have taken days before
-- [X] all required code to allow everyone to experiment (see pokt.network in research)
-- [X] all code is opensource (threefold as well as the deployers for thin provisioning)
-- [X] research for industry, different approaches around thin provisioning & pruning (see research part of document)
-- [X] define solution which allows implementation for pruning for casper labs
-- [X] do detailed research about casper labs to see how integration can be done (and if): our conclusion it can be done
+- [X] deploy a large blockchain in less than 5mins which would have taken hours before (software deployment)
+- [X] all required code to allow everyone to experiment (see weblets repository [here](https://github.com/threefoldtech/grid_weblets))
+- [ ] agree which blockchain node type
+- [X] all code is opensource (threefold as well as the deployers for provisioning)
+- [X] do detailed research about casperlabs to see how integration can be done (and if): our conclusion it can be done (and is done)
 - [X] link to required technology parts as provided by ThreeFold, see if we can use those solutions and what benefit would be
 - [X] do all required work to let it work on ThreeFold Grid
 
 ## Milestone 2 (ready to be executed) = 250k USD
 
->TODO: fix
 
+Extend the TFGrid with capacity for all current layer-1 protocols involved in ETA
+
+- Milestone title:  Extend the TFGrid with capacity for all current layer-1 protocols involved in ETA
+- The portion that the OP is requesting from the total grant for the milestone: 
+    - USD 250.000 (was $400k original)
+- Due date: 
+    - December 2022
+- Details of what will be delivered:
+    - base on ETA (CasperLabs) input desing capacity size and geographic location and distribution requirement
+    - agree with CasperLabs which POC/Operational partners are to be included in this capacity 
+    - 
  implement all required components for base system as defined in [solution part of doc](../solution/solution.md)
 
 ### Acceptance Criteria:
