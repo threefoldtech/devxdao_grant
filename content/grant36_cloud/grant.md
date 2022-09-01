@@ -77,8 +77,7 @@ This technology based will be used to create a distributed and decentralized clo
 
 ## Milestone 2 (ready to be executed) = 250k USD
 
-
-Extend the TFGrid with capacity for all current layer-1 protocols involved in ETA
+Extend the TFGrid with capacity for all current layer-1 protocols involved in ETA, specifically for CasperLans
 
 - Milestone title:  Extend the TFGrid with capacity for all current layer-1 protocols involved in ETA
 - The portion that the OP is requesting from the total grant for the milestone: 
@@ -86,30 +85,22 @@ Extend the TFGrid with capacity for all current layer-1 protocols involved in ET
 - Due date: 
     - December 2022
 - Details of what will be delivered:
-    - base on ETA (CasperLabs) input desing capacity size and geographic location and distribution requirement
+    - base on ETA (CasperLabs) input, design capacity size and geographic location and distribution requirement
     - agree with CasperLabs which POC/Operational partners are to be included in this capacity 
-    - 
- implement all required components for base system as defined in [solution part of doc](../solution/solution.md)
+  
+> Change to this original milestone is that we will do a train the trainer program with CasperLabs or partnes companies to make them self sufficient in taking the 1-click solution forward by themselves and make this work for many different type of blockchain nodes.
 
 ### Acceptance Criteria:
 
-We have been able to leverage a lot of technology from Threefold Tech which has been developed over the last 10 years. This grant was all about making sure and improving this codebase so it can be used for casperlabs. This is the result of hundreds of manmonths for which we are delighted to receive some recognition in a form of a grant.
+We have been able to leverage a lot of technology from Threefold Tech which has been developed over the last 10 years. This grant was all about making sure and improving this codebase so it can be used for CasperLabs. This is the result of hundreds of man-months for which we are delighted to receive some recognition in a form of a grant.
 
-- [X] zdb with all required features as required for the prune DB (opensource)
-- [X] zdb storage containers
-- [X] caching capability if the technology
-- [X] FLECC codec implemented and available as golang code (opensource)
-- [X] ZDB storage containers caching & encoding with FLECC codec.
-- [X] FLEXX encoding & distribution to 20+ backends
-- [X] self healing on the data, prove that data cannot be corrupted
-- [X] automatic recovery of broken ZDB instances on nodes
-- [X] deployment system on top of TFGrid 
-- [X] metadata system
-- [X] read path is redundant, can come from multiple ZDB backends
-- [ ] better description of the solution
+- [ ] based on CasperLabs input to where and for what partners private capacity is required, all required capacity has been deployed and is operational
+- [ ] CasperLabs and Partner / Customer base has proven to be able to use the capacity and deploy blockchain nodes where required.
+- [ ] Train the trainer program done
+- [ ] better description of / manuals for the solution
 - [ ] documentation and make demonstration tutorials in text and video
 - [ ] document all links to code & scripts as used on above
 
 
-{{#include grants_future.md}}
+{{#include grants_future.md}} 
 
