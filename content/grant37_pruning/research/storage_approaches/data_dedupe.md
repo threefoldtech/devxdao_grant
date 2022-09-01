@@ -1,14 +1,14 @@
->TODO: what do we try to accomplish here?
 
-## Backup, archiving, and de-duplication technology
+## Data Deduplication
 
-Data backup and archiving processes and technology has been around for the length of the digital age. We should take a look at what the findings and results are to do reliable, trustworthy and secure backups.
+Data deduplicatio technology has been around for the length of the digital age. We should take a look at what the findings and results are to do reliable, trustworthy and secure backups.
 
-Backup de-duplication was invented in the early 2000's. Up to that point in time datacenters with thousands of servers with the same OS would backup the same systems files a thousand times over. With the rise of the digital age this became very expensive quickly efficiency and competitive drivers forced innovators to start looking at data de-duplication. Once of the earliest implementations and patented ways of making de-duplicated backups are described in this [patent](https://patents.justia.com/patent/7254596).
+Backup de-duplication was invented in the early 2000's. Up to that point in time datacenters with thousands of servers with the same OS would backup the same systems files a thousand times over. With the rise of the digital age this became very expensive quickly efficiency and competitive drivers forced innovators to start looking at data de-duplication. Once of the earliest implementations are described in this [patent](https://patents.justia.com/patent/7254596) which is by the way a patent as done by one of our first companies from our Incubator, please do not we don't believe in patents any more and we don't execute on any of them, we believe the only way forward is opensource. 
 
-The use of hashes to comparing local files and backed up files in a central storage facility is a very elegant manner to know if a file (read data) is already backed up. This works not just for one server with files installed but also allows to reach large efficiency gains over a large number of servers. The patent owner is part of the group developing this blockchain archiving research and there is no risk of patent infringement if we use this principle going forward.
+The use of hashes to comparing local files and backed up files in a central storage facility is a very elegant manner to know if a file (read data) is already backed up. This works not just for one server with files installed but also allows to reach large efficiency gains over a large number of servers. 
 
 Excerpt from the patent file:
+
 *The invention relates to an improvement in backup technology, and more particularly, creates a solution for massive server backup in Internet data center and enterprise data center environments, resulting into a solution for disaster recovery and data protection. The invention is an improved System and a Method of using a hashing key of file content for more efficient and more effective computer file and computer program backups.*
 
 *The first step in the process is to scan the file system on the target machine (computer system to be backed up) and creating a hashing key, creating a unique digital code for each of the files to be backed up. In a preferred embodiment, in order to reduce the processing time, a hashing key is only created for the files having a modification date attributed that is more recent than the last backup.*

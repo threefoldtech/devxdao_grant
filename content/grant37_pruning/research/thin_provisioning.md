@@ -1,11 +1,25 @@
 # Offload blockchain databases
 
-I've made some test with Harmony Blockchain (testnet) to try to reduce bandwidth requirement to get a working node running quickly.
+We did extensive research to try to reduce bandwidth requirement to get a working node running quickly using our quantum same storage system.
+
+The blockchains we experimented with:
+
+- Casper Labs
+- Cosmos
+- Harmony Blockchain 
+- Substrate based blockchains
+- Most Ethereum based blockchains
+- Pokt.Network
+
+We also researched lots of other blockchains, to see where it would work.
+
+> The research took a lot of time,  we only put some conclusions into this document.
 
 ## Setup
 
 In order to get a node working, documentation ask you to clone a copy of the current blockchain database state using `rclone` and
 grabbing data from a `AWS` storage source.
+
 I did it on my machine with a `400 Mbps` download line, it took **50 min** to download the whole `40 GB` database (testnet), which make an average
 download speed of `14 MB/s`.
 
@@ -27,3 +41,9 @@ More test will be made to get better values and more deterministics details, the
 
 According to theses values, an average bandwidth of `10 MB/s` is required between the node and `zdb` where database is, with only `1 zdb` in a local network sharing the database
 we can feed lot of node without the need to copy the full database locally, since after **couple of days** running, only `15 GB` of data were allocated on the node itself, this __reduce the storage needed by 4 per node__ and any node can boot in less than **1 min**.
+
+## CONCLUSION
+
+> THE BENEFIT IS INCREDIBLE
+
+We have been able to demonstrate how we can do thing provisioning on most blockchain databases.

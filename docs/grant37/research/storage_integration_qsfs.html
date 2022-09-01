@@ -1,0 +1,314 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>CasperLabs Integration - DEVXDAO PRUNING GRANT 37</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../technology/technology.html">Technology</a></li><li class="chapter-item expanded "><a href="../research/research.html"><strong aria-hidden="true">1.</strong> Research</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../industry/the_problem.html"><strong aria-hidden="true">1.1.</strong> The Problem</a></li><li class="chapter-item expanded "><a href="../industry/analysis.html"><strong aria-hidden="true">1.2.</strong> Analysis</a></li><li class="chapter-item expanded "><a href="../research/storage_approaches/storage_approaches_include.html"><strong aria-hidden="true">1.3.</strong> Storage Approaches</a></li><li class="chapter-item expanded "><a href="../research/thin_provisioning.html"><strong aria-hidden="true">1.4.</strong> Thin Provisioning</a></li><li class="chapter-item expanded "><a href="../research/pokt_network.html"><strong aria-hidden="true">1.5.</strong> Pokt.Network Achievement</a></li><li class="chapter-item expanded "><a href="../research/casper_data_structure.html"><strong aria-hidden="true">1.6.</strong> CasperLabs Datastructure</a></li><li class="chapter-item expanded "><a href="../research/storage_integration_qsfs.html" class="active"><strong aria-hidden="true">1.7.</strong> CasperLabs Integration</a></li><li class="chapter-item expanded "><a href="../research/solution_ideas.html"><strong aria-hidden="true">1.8.</strong> Solution Ideas</a></li></ol></li><li class="chapter-item expanded "><a href="../solution/solution_.html"><strong aria-hidden="true">2.</strong> Solution</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../solution/solution.html"><strong aria-hidden="true">2.1.</strong> Solution</a></li><li class="chapter-item expanded "><a href="../solution/architecture.html"><strong aria-hidden="true">2.2.</strong> Architecture</a></li><li class="chapter-item expanded "><a href="../solution/qsss_benefits.html"><strong aria-hidden="true">2.3.</strong> Storage System Benefits</a></li></ol></li><li class="chapter-item expanded "><a href="../requirements/requirements_intro.html"><strong aria-hidden="true">3.</strong> Requirements</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../requirements/requirements_high_level.html"><strong aria-hidden="true">3.1.</strong> Requirements Overview</a></li><li class="chapter-item expanded "><a href="../requirements/necessary_conditions.html"><strong aria-hidden="true">3.2.</strong> Necessary Conditions</a></li><li class="chapter-item expanded "><a href="../requirements/solution_vs_necessary_conditions.html"><strong aria-hidden="true">3.3.</strong> Solutions vs Requirements</a></li></ol></li><li class="chapter-item expanded "><a href="../technology/technology.html"><strong aria-hidden="true">4.</strong> Technology</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../technology/qsss/qsss_home.html"><strong aria-hidden="true">4.1.</strong> Quantum Safe Storage</a></li><li class="chapter-item expanded "><a href="../technology/qsss/qss_algorithm.html"><strong aria-hidden="true">4.2.</strong> Quantum Safe Algo</a></li><li class="chapter-item expanded "><a href="../technology/primitives/compute/compute.html"><strong aria-hidden="true">4.3.</strong> Compute</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">DEVXDAO PRUNING GRANT 37</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="casperlabs-storage-integration-qsfs"><a class="header" href="#casperlabs-storage-integration-qsfs">Casperlabs Storage Integration QSFS</a></h1>
+<p>Casper uses <a href="http://www.lmdb.tech/doc/index.html">lmdb</a> for the persistent storage in their blockchain. Lmdb,
+an in process key-value store, saves its data in <strong>a single file</strong> on
+disk. Since there is ever only 1 data file, and this data file is not
+changed (i.e. it is always modified), this rules out the usage of
+0-db-fs / 0-stor to run (part of) the database.</p>
+<p>The next best option is to analyze what data is stored in the DB.
+Mostly, we are interested in block information, as this is the main
+source of historic data. The idea would be to periodically remove &quot;old&quot;
+blocks from the DB, and move it to a secondary DB. If the amount of
+blocks stored in such a secondary instance is limited, this effectively
+creates a list of read-only (as blocks, once accepted and written, will
+never change) secondary instance data files. These files can then be
+written to 0-db-fs / 0-stor once they are finished, and removed locally.
+If historical data is needed from these blocks, the files can be
+recovered and read.</p>
+<p>It should be noted the lmdb storage format is architecture dependant
+(x86 vs x86_64, little endian vs big endian). Furthermore, there are no
+guarantees about the internal layout of the data file in lmdb. As such,
+we can't really use lmdb for this, convenient as that would be. This can
+be solved however by creating a deterministic storage format for the
+data, and then writing this to a file. For example, we can simply use
+<a href="https://github.com/bincode-org/bincode">bincode</a>, a rust binary encoder, to encode blocks, and write the
+results to the file. Given the same settings, which we can set
+statically in the software, the same result will be produced.
+Furthermore, we can statically agree to create such a file every e.g.
+10K blocks (amount needs some research regarding block size). This will
+cause the same file to be generated on every node. This file can then be
+encoded and uploaded.</p>
+<p>All of the above does require serious protocol support. Most notably,
+there needs to be consensus over which blocks to write to secondary
+storage and when. For the main chain, this is not a problem, as every
+node is expected to have these blocks (the exception would be temporary
+small forks, if this would be possible. For this reason blocks to be
+saved need to be far enough in the past). It is harder to also agree on
+orphaned blocks, without having some kind of active consensus mechanism.
+Since orphaned blocks are persisted in storage, they should eventually
+be moved to this secondary storage, however not all nodes will have this
+orphaned block, as some nodes might, e.g. have joined the network after
+this block was broadcast. This requires more investigation in the casper
+consensus protocol.</p>
+<p>In this scenario, it seems best to run directly against 0-stor, as we
+would upload single files. Furthermore, 0-stor can be modified to return
+the metadata, and this metadata could then be broadcast on chain (through
+means of a transaction?). This makes sure every node has the metadata
+available to recover the uploaded file locally. (TODO: how to reach
+consensus over which blocks to store and what 0-dbs to use, who does
+upload, ...). Since both 0-stor and the casper blockchain are in rust,
+we can also opt to embed 0-stor (as we only need the core
+functionality).</p>
+<blockquote>
+<p>todo: research storage layer of casper, put all findings here
+=======</p>
+</blockquote>
+<h2 id="aim"><a class="header" href="#aim">Aim</a></h2>
+<p>The aim is to provide a storage solution, which manages to </p>
+<ul>
+<li>efficiently store historical data (with regards to used space)</li>
+<li>allows the data to be retrieved even when nodes are no longer reachable, or loose access to the data (intentional or accidental).</li>
+</ul>
+<h2 id="solution--lmdb-integrated-with-0-stor"><a class="header" href="#solution--lmdb-integrated-with-0-stor">Solution : LMDB integrated with 0-stor</a></h2>
+<p>At Threefold, we already developed a solution which achieves most of this in <a href="https://github.com/threefoldtech/0-stor_v2">0-stor</a>. This allows storing files in a distributed, redundant fashion, using <code>forward-looking error correcting</code> codes. Considering the existing storage layer in the <a href="https://github.com/casper-network/casper-node">casper node</a>, we feel that integration and interoperation between 0-stor and Casper storage is a viable solution to the given problem.
+<a href="https://github.com/threefoldtech/0-stor_v2">0-stor</a> is built to reliably store files with minimal overhead. Even though it can be run as a daemon in stand-alone mode, Threefold has developed a filesystem on top of it. An actual integration seems to be the best way forward: this allows the chain itself to drive the actual storage process. Considering that the existing storage layer uses <a href="http://www.lmdb.tech/doc/index.html">lmdb</a>, which is a single file embedded datastore, we will propose some modifications to this storage layer, to allow the usage of <a href="https://github.com/threefoldtech/0-stor_v2">0-stor</a>.</p>
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+what is size of files -&gt; lmdb uses sparse files, on my desktop at
+home the database file has a registered size of 750GB at startup</li>
+<li><input disabled="" type="checkbox" checked=""/>
+what is min file, max -&gt; Not relevant</li>
+<li><input disabled="" type="checkbox"/>
+performance requirements </li>
+<li><input disabled="" type="checkbox" checked=""/>
+what is data structure -&gt; Single file</li>
+<li><input disabled="" type="checkbox" checked=""/>
+how to manipulate positioning of the bigger files -&gt; Not relevant</li>
+<li><input disabled="" type="checkbox" checked=""/>
+are the large blocks the same ? -&gt; Not relevant</li>
+<li><input disabled="" type="checkbox"/>
+need to know how consensus has been achieved
+=======</li>
+</ul>
+<h3 id="limit-to-historic-state"><a class="header" href="#limit-to-historic-state">Limit to historic state</a></h3>
+<p>First, it should be noted that <a href="https://github.com/threefoldtech/0-stor_v2">0-stor</a> is <em>not</em> intended to be a high speed storage solution, but rather, reliable and space efficient. As such, we can't store everything.
+If we identify the storage at some block, then we can split this into an active and a historic storage part. We consider the active state to be the state which was either recently created, or can be accessed as a result of normal operation of the network. This includes recent blocks, recently deployed contracts, ...
+Historic data is composed of data which is no longer accessed by the network itself, such as blocks which were created some time ago. Considering the speed restriction, we will only consider historic state for processing.</p>
+<p>=======</p>
+<h3 id="file-encoding"><a class="header" href="#file-encoding">File encoding</a></h3>
+<p>Since Casper's current blockchain storage implementation is based on <a href="http://www.lmdb.tech/doc/index.html">lmdb</a>, which operates on a
+single data file, the option of encoding database files directly (should that be possible given the previously stated constraint) is ruled out. </p>
+<p>To allow <a href="https://github.com/threefoldtech/0-stor_v2">0-stor</a> operation, the following addition can be made. After every new block is stored,
+an older block (in practice, a block which is a fixed height behind the new block) is read from storage, written to a file, and deleted from storage. Every x amount of blocks, the storage file is encoded and uploaded, and a new storage file is started. This also means that a storage file has a fixed amount of blocks. The encoding of the data needs to be deterministic, so that all the nodes in the chain participating in the storage protocol have the exact same data. The above is specific for blocks, but can be used for other data as well. 
+It should be pointed out that a node can't actually delete the data, as it needs to retain some way of knowing where it is. Multiple mechanisms can be used for this. For good operation with <a href="https://github.com/threefoldtech/0-stor_v2">0-stor</a> however the file name needs to be deterministic. 
+Besides this, the value in the database can be converted to point to this file name, which allows
+the storage layer to know that it needs to fetch the actual value from an encoded blob. Depending on the data and structuring, more efficient methods are also possible, which simply indicate that some data is in a blob. For instance, if a fixed amount of blocks is encoded per file, the file name can be used to indicate which blocks are in it based on their respective heights in the chain. It is then sufficient to merely indicate in the database that a block is off-chain.</p>
+<h3 id="optional-encryption"><a class="header" href="#optional-encryption">Optional encryption</a></h3>
+<p><a href="https://github.com/threefoldtech/0-stor_v2">0-stor</a> is build to support encryption of data before encoding it and uploading the chunks. Since this will generally be used for publicly known data, a small modification can be made which does not force this behavior. That removes overhead from the encryption step, which is not needed, but still allows it in case someone is running a private chain.</p>
+<h3 id="requirements-for-node-implementation"><a class="header" href="#requirements-for-node-implementation">Requirements for Node implementation</a></h3>
+<p>We consider the following requirements for any node to store a chunk of data. </p>
+<h4 id="incentive"><a class="header" href="#incentive">Incentive</a></h4>
+<p>For permissionless blockchains, the node needs to have incentive to do so, as storage uses disk space, which has a real world cost. A simple way to achieve this is to have a periodic payout for nodes which store data </p>
+<ul>
+<li>through creating of new tokens</li>
+<li>by distributing (part of) transaction fees. </li>
+</ul>
+<h4 id="treatment-of-nodes-behaving-badly"><a class="header" href="#treatment-of-nodes-behaving-badly">Treatment of nodes behaving badly</a></h4>
+<p>Secondly, a node which has some data stored needs to make sure this is accessible for everyone, and that the data is not lost or otherwise corrupted. For a node to enforce this, the chain needs some way to punish the node if the condition is failed. One approach is to only allow nodes which have some amount of tokens staked participate in data archival, where the stake can be slashed in case a violation is detected. In this scheme, a node should only be able to unstake if it has no data stored. To accomplish this, a node needs the ability to step down as an archiver, which then causes the chain to elect a new node to store the data on. Once the new archiver indicates that the data is stored, the old node's unstaking completes. At this time, we believe that this consensus scheme can be tied into the existing consensus scheme for block validation. When a node stakes, it can indicate whether it wants to archive or not.</p>
+<h4 id="election"><a class="header" href="#election">Election</a></h4>
+<p>After every x amount of blocks, when the storage file is rotated, the chain elects an ordered set of nodes out of all potential archivers. The election mechanism itself does not matter much. An option could be a <a href="https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14757/13791">modified Phragmén election</a>. Note that it is possible to run the election offline, and only commit the results on chain.
+This might be needed, as the algorithm takes a noticeable amount of time to finish, which is impractical in the time constraint context of block creating. 
+Once the election has ended, every elected node can use <a href="https://github.com/threefoldtech/0-stor_v2">0-stor</a> to compute the storage chunks. They then archive the chunk corresponding to their ranking in the election, and publish the metadata of the storage on chain. This metadata includes the hash of the chunk.
+Since every archiver needs to compute every chunk, they can all verify each other's hashes and make sure the data is saved correctly.</p>
+<h4 id="0-db-append-only-key-value-store"><a class="header" href="#0-db-append-only-key-value-store">0-db append-only key-value store</a></h4>
+<p><a href="https://github.com/threefoldtech/0-stor_v2">0-stor</a> saves data to <a href="https://github.com/threefoldtech/0-db">0-db</a>, an append-only key-value store. This is ideal, as data written is permanent and will never change. The info needed to connect to the right namespace is included in the metadata (IP:port and namespace name). This allows anyone to fetch the chunks for a particular data blob and reconstruct it locally.
+In case a <a href="https://github.com/threefoldtech/0-db">0-db</a> needs to have scheduled downtime, or otherwise needs to be replaced, a node can spin up a new one, copy the data from the original one, and finally update the metadata on-chain. They can then safely remove the old db, without getting their funds slashed. Similarly, if another node takes ownership of a data shard because the original archiver wants to unstake, they can simply read the data from storage, verify the checksum, and write it to their own <a href="https://github.com/threefoldtech/0-db">0-db</a>. The transfer is finished
+by uploading the new metadata to the chain.</p>
+<h4 id="metadata"><a class="header" href="#metadata">Metadata</a></h4>
+<p>It is worth noting that this approach can be used to offload metadata storage itself, should this ever be required. In that case, metadata pieces can also be stored in a file, which is then encoded and uploaded. If a node wants to fetch a particular piece of information, it first fetches the metadata blob, reconstructs it, and then uses the contained data to fetch and decode the blob with the actually needed info.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../research/casper_data_structure.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../research/solution_ideas.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../research/casper_data_structure.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../research/solution_ideas.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        <script type="text/javascript" src="../mermaid.min.js"></script>
+        <script type="text/javascript" src="../mermaid-init.js"></script>
+
+
+    </body>
+</html>
