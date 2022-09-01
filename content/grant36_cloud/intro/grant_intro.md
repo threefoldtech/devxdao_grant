@@ -5,7 +5,11 @@ This research document represents the first milestone in the grant that has been
 
 ## Problem statement
 
-Currently blockchain node (owners) have two options:
+The current internet mainly consists of centralised datacenters and networks owned and operated by a handfull of service providers.  80% of the Internet belongs to less than 10 companies.  This is not helping blockchain layer-1 projects to achieve reliability and decentralization.
+
+![undersea_cables](img/undersea_cables.png)
+
+In this intenet blockchain node (owners) have two options:
 - go to one of the market leader in cloud solution, get a VM and work their way through the install protocol for the blockchain node.
 - get a (dedicated) server (hosting provider, colo or in a home or business setting) and use that bare metal, choose an OS and then follow the install protocol for the blockchain node.
 

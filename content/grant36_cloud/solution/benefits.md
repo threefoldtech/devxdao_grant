@@ -1,9 +1,9 @@
 # Architecture Benefits
 
-- indefinite scaling - Internet if internets can scale forever and provide sourvereign capacity for where needed
-- secure
-- private
-- decentralized
-- opensource
-- etc
+Deploying blockchain nodes un such a decentralized cloud come with a number of advantages and benefits.
+- **secure**.  The hardware devices that make up this decentralized grid do not have administrator access.  Large cloud providers have a lot of engineers looking after all the infrastructure and each and every components that makes up such a large cloud has administrator access.  So for blockchain node deployments that exist on these large clouds there is always a higher tier administrator that has access to these deployment over and above the blockchain node owner. Same is true for the tech savy bare metal deployment.  In this case the server and OS are managed by he blockchain owner himself and in this case the security level of the blockchain node is wholly dependent on the owner himself. 
+- **private**.  Compute and storage are only made available to the owner of the deployment wallet. There are no oversight nor administration activities happening on the device(s) involved in deployments.  All data stored, all data processed is kept private, no (meta)data leakage
+- **decentralized**.  Bij design this architecture allows for capacity to be created everywhere and therefore it is by design decentralized.  There will still be (large) concentrations of capacity, done by farmers that invest in multiple servers and might deploy these in standad datacenter.  The grid will always have a heathly balance between large concentrations of capacity in close proximity and edge capacity.
+- **opensource**.  Everything is built under opensource license (Apache2). Therefore everything can be inspected, understood and continuously improved.
+- **infinite scaling**. The model allows for infinite scaling.  This is important with regards to achieving higher and higher levels of decentralization through edge deployments in territories where there are no large cloud providers present.This balances the capabilities of blockchains by being deployed local to communities not a the center of the Internet.
 
