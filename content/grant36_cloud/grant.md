@@ -49,7 +49,7 @@ This technology based will be used to create a distributed and decentralized clo
 ## Milestone 1 (100% done) = 250k USD
 
 - Milestone title:  Create the ability to run layer-1 blockchain nodes on the ThreeFold Technology grid.
-- 
+
 - The portion that the OP is requesting from the total grant for the milestone: 
     - USD 250.000 (was $100k originally)
 - Due date: 

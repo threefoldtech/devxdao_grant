@@ -25,7 +25,7 @@ Find more information here:
 - website: http://www.threefold.io
 - library: http://library.threefold.me
 
-#### What does ThreeFold bring
+## What does ThreeFold bring
 
 ThreeFold brings a technology stack that undoes a lot of the (unnecessary) complexity that currently exits in the world of Internet and more generic the world of Information Technology.  This technology stack includes:
 - an autonomous, secure, lightweight and efficient operating system that enables anyone to create data processing and storage capabilities everywhere where electricity meets connectivity.

@@ -9,7 +9,7 @@ The current internet mainly consists of centralized datacenters and networks own
 
 ![undersea_cables](img/undersea_cables.png)
 
-In this intenet blockchain node (owners) have two options:
+In this internet blockchain node (owners) have two options:
 - go to one of the market leader in cloud solution, get a VM and work their way through the install protocol for the blockchain node.
 - get a (dedicated) server (hosting provider, colo or in a home or business setting) and use that bare metal, choose an OS and then follow the install protocol for the blockchain node.
 
