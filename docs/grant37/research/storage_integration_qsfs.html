@@ -193,8 +193,7 @@ upload, ...). Since both 0-stor and the casper blockchain are in rust,
 we can also opt to embed 0-stor (as we only need the core
 functionality).</p>
 <blockquote>
-<p>todo: research storage layer of casper, put all findings here
-=======</p>
+<p>todo: research storage layer of casper, put all findings here</p>
 </blockquote>
 <h2 id="aim"><a class="header" href="#aim">Aim</a></h2>
 <p>The aim is to provide a storage solution, which manages to </p>
@@ -220,14 +219,12 @@ how to manipulate positioning of the bigger files -&gt; Not relevant</li>
 <li><input disabled="" type="checkbox" checked=""/>
 are the large blocks the same ? -&gt; Not relevant</li>
 <li><input disabled="" type="checkbox"/>
-need to know how consensus has been achieved
-=======</li>
+need to know how consensus has been achieved</li>
 </ul>
 <h3 id="limit-to-historic-state"><a class="header" href="#limit-to-historic-state">Limit to historic state</a></h3>
 <p>First, it should be noted that <a href="https://github.com/threefoldtech/0-stor_v2">0-stor</a> is <em>not</em> intended to be a high speed storage solution, but rather, reliable and space efficient. As such, we can't store everything.
 If we identify the storage at some block, then we can split this into an active and a historic storage part. We consider the active state to be the state which was either recently created, or can be accessed as a result of normal operation of the network. This includes recent blocks, recently deployed contracts, ...
 Historic data is composed of data which is no longer accessed by the network itself, such as blocks which were created some time ago. Considering the speed restriction, we will only consider historic state for processing.</p>
-<p>=======</p>
 <h3 id="file-encoding"><a class="header" href="#file-encoding">File encoding</a></h3>
 <p>Since Casper's current blockchain storage implementation is based on <a href="http://www.lmdb.tech/doc/index.html">lmdb</a>, which operates on a
 single data file, the option of encoding database files directly (should that be possible given the previously stated constraint) is ruled out. </p>
