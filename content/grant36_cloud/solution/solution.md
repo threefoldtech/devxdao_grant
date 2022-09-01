@@ -35,7 +35,7 @@ For all digital innovators this grid allows for normal mainstream deployment met
 
 For the ones that want to adopt new ways to deploy applications and services there is a language being developed that will have low level primitives built in to create smart contracts to deploy services. 
 
-## Single click deployment
+## 1-click deployment
 
 The goal here is to make deploying a blockchain node on this decentralized grid:
 - simple
