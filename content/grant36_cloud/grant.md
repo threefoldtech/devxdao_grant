@@ -11,23 +11,27 @@
 
 ## Benefits
 
-<!-- If successful the project will bring new scaling opportunity for level-1 protocols to execute value transactions and smart contracts. 
+The current internet mainly consists of centralized datacenters and networks owned and operated by a handful of service providers.  80% of the Internet belongs to less than 10 companies.  This is not helping blockchain layer-1 projects to achieve reliability and decentralization.
 
-Problem: the current technology reality is that level-1 blockchains carry forever it's history which will put an increasing demand on storage requirements for all participating nodes. This is not very sustainable or efficients.
+![undersea_cables](intro/img/undersea_cables.png)
 
-The number of implementations of DAO's is going to be exponentially growing and there is a need for level-1 blockchain protocols to be able to deal with the increased volume of transactions and history where pruning is going to be needed.
+In this internet, blockchain node (owners) have two options:
+- go to one of the market leader in cloud solution, get a VM and work their way through the install protocol for the blockchain node.
+- get a (dedicated) server (hosting provider, colo or in a home or business setting) and use that bare metal, choose an OS and then follow the install protocol for the blockchain node.
 
-Our Solution is
+Both require a fair amount of technical knowledge and require commitment and care throughout the timetime / cycle of the blockchain node operations.  This current situation has two major drawbacks:
+- relying on centralized hosting providers builds a very centralized blockchain node group deployment on those massive cloud providers.  Decentralization is not achieved and there is a fair amount of risk involved when issues occur in these datacenters.
+- having to choose between cloud or bare metal and then following the installation protocol for the specific blockchain deployment requires a fair amount of technical skills.  This is not for everyone. 
 
-- Thin provisioning can deploy blockchains with at least 3x storage requirements and bandwidth requirements for intial deployment (done)
-    - Thin provisioning works for most blockchain systems, this has now been proven. (done)
-    - Further integration storage backend of casperlabs would benefit even more. (next grant)
-- Pruning support for blockchains 
-    - Show how a solution can be created using ThreeFold storage components (is using 30 years of experience)
-    - Demonstrate applicability
-    - Create specs & solution upto to a pruning DB which can then be used in a next grant to integrate tightly in casperlabs DB
+## Solving the problem
+ThreeFold is creating technology that creates a decentralized grid with compute and storage capabilities to build a new internet that is not in the hands of a few monopolies but in the hands of many. This stack is centered around a solid "layer-0" which works in a very different way than traditional clouds.
 
-> The result of this grant are massive important for the blockchain industry, storage is a big issue. -->
+We will identify that this technology is well positioned to create a decentralized platform with smart contract deployment methods that can automate 99% of the work needed for blockchain node deployments.  This overcomes the 2 problems identified with the current solutions:
+- this ThreeFold grid, an internet of internets, is owned by many individuals, companies and governments and presents a true decentralized platform to run blockchain nodes.
+- the knowledge required to do such a deployment does not surpass knowledge needed to maintain a digital currency wallet.  And even that can be avoided.
+
+This technology based will be used to create a distributed and decentralized cloud platform where blockchain nodes can run from home, school, office and datacenter locations.  A true step forward in make blockchains resilient.
+
 
 ## Our Team has massive experience in storage & internet technology
 
@@ -44,27 +48,25 @@ Our Solution is
 
 ## Milestone 1 (100% done) = 250k USD
 
->TODO: fix
-
-- Milestone title: Create the ability to run layer-1 blockchain nodes on the ThreeFold Technology grid.
+- Milestone title:  Create the ability to run layer-1 blockchain nodes on the ThreeFold Technology grid.
 - 
 - The portion that the OP is requesting from the total grant for the milestone: 
     - USD 250.000 (was $100k originally)
 - Due date: 
     - done
 - Details of what will be delivered:
-    - prove Layer-1 blockchain thin provisioning can be done (this is a massive achieved and has incredible benefits for the industry)
+    - prove Layer-1 blockchain provisioning can be done (this is a massive achievement and has incredible benefits for the industry)
     - Initial research will be done with the Casper Labs Layer-1 protocol and also some other blockchains.
-    - Create the solution which allows everyone to verify thin provisioning can be done.
+    - Create the solution which allows everyone to verify provisioning can be done.
 
 > remarks: we were an early grant and were trying to get feedback before submitting because there was no clarity for us how to do it and how sure we would be on the grant. We might have been not good enough in our communication, but the grant got removed before we could receive funding for the work done. We hope that this might be recovered, as such we have updated this document to reflect our current situation and work done.
 
 ### Acceptance Criteria:
 
-> we hope that the reader can see how this work has an incredible potential for the blockchain industry. We have been able to show how blockchains can be deployed using more than 5x time and bandwith benefit, this shows the potential of how pruning & thin provisioning migh be achieved.
+> we hope that the reader can see how this work has an incredible potential for the blockchain industry. We have been able to show how blockchains can be deployed on a decentralized grid and helps to achieve reliability, security, privacy and scalability.
 
-- [X] thin provisioning solution can be deployed (based on pokt.network for now) and can be done by everyone
-- [X] see how the thin provisioning cuts heavily on bandwidth and storage requirements (5x benefits easy to achieve)
+- [X] provisioning solution can  deploy blockchain nodes and this can be done by everyone
+- [X] see how the provisioning method (1-click) cuts heavily on complexity
 - [X] deploy a large blockchain in less than 1h which would have taken days before
 - [X] all required code to allow everyone to experiment (see pokt.network in research)
 - [X] all code is opensource (threefold as well as the deployers for thin provisioning)
