@@ -77,7 +77,7 @@ This technology based will be used to create a distributed and decentralized clo
 
 ## Milestone 2 (ready to be executed) = 250k USD
 
-Extend the TFGrid with capacity for all current layer-1 protocols involved in ETA, specifically for CasperLans
+Extend the TFGrid with capacity for all current layer-1 protocols involved in ETA, specifically for CasperLabs
 
 - Milestone title:  Extend the TFGrid with capacity for all current layer-1 protocols involved in ETA
 - The portion that the OP is requesting from the total grant for the milestone: 
@@ -88,7 +88,7 @@ Extend the TFGrid with capacity for all current layer-1 protocols involved in ET
     - base on ETA (CasperLabs) input, design capacity size and geographic location and distribution requirement
     - agree with CasperLabs which POC/Operational partners are to be included in this capacity 
   
-> Change to this original milestone is that we will do a train the trainer program with CasperLabs or partnes companies to make them self sufficient in taking the 1-click solution forward by themselves and make this work for many different type of blockchain nodes.
+> Change to this original milestone is that we will do a train the trainer program with CasperLabs or partners companies to make them self sufficient in taking the 1-click solution forward by themselves and make this work for many different type of blockchain nodes.
 
 ### Acceptance Criteria:
 
