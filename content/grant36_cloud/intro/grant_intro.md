@@ -5,7 +5,7 @@ This research document represents the first milestone in the grant that has been
 
 ## Problem statement
 
-The current internet mainly consists of centralised datacenters and networks owned and operated by a handfull of service providers.  80% of the Internet belongs to less than 10 companies.  This is not helping blockchain layer-1 projects to achieve reliability and decentralization.
+The current internet mainly consists of centralized datacenters and networks owned and operated by a handfull of service providers.  80% of the Internet belongs to less than 10 companies.  This is not helping blockchain layer-1 projects to achieve reliability and decentralization.
 
 ![undersea_cables](img/undersea_cables.png)
 
