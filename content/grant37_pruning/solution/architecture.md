@@ -64,7 +64,7 @@ The Consensus layer for write ath will be based on Tendermint (or alternative if
 
 The Pruning DB creates storage containers of 1-100 MB in size (configurable). Each Storage Container gets put in separate file if a configurable time interval got passed or a certain size for the storage container, default 100 MB.
 
-##  Redundancy for Prude DB
+##  Redundancy for Prune DB
 
 We will not make the Pruning DB active-active but this can be done as part of the next grant. For now the pruning DB will write the storage containers with data and metadata. If the node on which we do the activiation of the pruning dies then that pruning action will have to be restarted.
 
