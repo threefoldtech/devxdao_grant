@@ -37,7 +37,7 @@ For the ones that want to adopt new ways to deploy applications and services the
 
 ## 1-click deployment
 
-The solution is to make blockchain nodes super simple on this grid.  In the architecture section we will explain how smartcontracts can be compiled that deploy blockchain and other workloads without the intervention of system administrators or command and control frameworkd. The smartcontract contains all the elements, knowledge and information on how to deploy any workload, in this case we focus on deploying a blockchain node.
+The solution is to make blockchain nodes super simple on this grid.  In the architecture section we will explain how smartcontracts can be compiled that deploy blockchain and other workloads without the intervention of system administrators or command and control framework   . The smartcontract contains all the elements, knowledge and information on how to deploy any workload, in this case we focus on deploying a blockchain node.
 
 ![layer 0+1](img/layer0%2B1.png)
 
