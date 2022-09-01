@@ -2,6 +2,7 @@
 - [Intro](intro/grant_intro.md)
 - [Solution]()
     - [Solution](solution/solution.md)
+    - [Architecture](technology/smartcontract_it/smartcontract_tfgrid3.md)
     - [Solution Benefits](solution/benefits.md)
 - [Deploy]()
     - [Deploy: create profile](weblets/weblets_profile_manager.md)
