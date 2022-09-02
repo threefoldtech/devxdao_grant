@@ -161,7 +161,23 @@
 <li>this effort goes together with another grant which is the deployment of such a system on top of TFGrid in all scalability and with a consensus driven deployment mechanism.</li>
 <li>All the code delivered is opensource.</li>
 </ul>
-<p>{{#include ../grants_future.md}}</p>
+<h2 id="future-grants"><a class="header" href="#future-grants">Future Grants</a></h2>
+<h3 id="integration-in-casperlabs-blockchain-backend"><a class="header" href="#integration-in-casperlabs-blockchain-backend">Integration in Casperlabs Blockchain Backend</a></h3>
+<ul>
+<li>show how seamless pruning can be implemented in POC using the blockchain engine</li>
+<li>this is a serious job and will require quite some effort to make sure it happens in the safest way and gets well tested.</li>
+<li>this will require low level integration so that the data paths dont change to much.</li>
+<li>Use the Blockchain layer to also prove authenticity of the pruning storage layer (is an extra check, not strictly needed, but might give extra confidence to community).</li>
+</ul>
+<h3 id="redundant-write-path-for-pruning-db"><a class="header" href="#redundant-write-path-for-pruning-db">Redundant write path for pruning DB</a></h3>
+<p>Use e.g. tendermint to write in redundant way to the backend.</p>
+<h3 id="production-readyness--testing"><a class="header" href="#production-readyness--testing">Production Readyness &amp; Testing</a></h3>
+<p>Testing this new pruning layer in all its facets on performance and reliability level.</p>
+<h3 id="master-slave-solution-for-pruning-db"><a class="header" href="#master-slave-solution-for-pruning-db">Master-Slave Solution for pruning DB</a></h3>
+<ul>
+<li>Make Pruning DB Redundant (active-active or active-passive)</li>
+<li>Show how there is never a reliability issue, create good test cases to show this redundancy.</li>
+</ul>
 
                     </main>
 

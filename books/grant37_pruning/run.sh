@@ -1,3 +1,10 @@
+set -ex
+rm -rf book
+pushd src
+git add * -f 
+popd
 mdbook build
-rsync -ravd book/ ../../docs/grant37/
+rsync -rav --delete book/ ../../docs/grant37/
+rm -rf book
+
  

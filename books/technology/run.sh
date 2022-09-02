@@ -1,3 +1,10 @@
+set -ex
+rm -rf book
+pushd src
+git add * -f 
+popd
 mdbook build
-rsync -ravd book/ ../../docs/tech/
+rsync -rav --delete book/ ../../docs/tech/
+rm -rf book
+
  
