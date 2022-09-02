@@ -6,17 +6,11 @@ pushd $DIR_CT/books
 git pull
 popd
 
-pushd books/grant36_cloud
-bash run.sh
-popd
-
-pushd books/grant37_pruning
-bash run.sh
-popd
-
-pushd books/technology
-bash run.sh
-popd
+for d in books/*/ ; do
+    pushd $d
+    bash run.sh
+    popd
+done
 
 git add . && git commit -m "update."; git push
 
