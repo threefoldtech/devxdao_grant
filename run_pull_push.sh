@@ -2,6 +2,10 @@ set -e
 
 bash env.sh
 
+pushd $DIR_CT/books
+git pull
+popd
+
 ##WALK OVER THE BOOKS
 for d in books/*/ ; do
     pushd $d
@@ -9,5 +13,6 @@ for d in books/*/ ; do
     popd
 done
 
+git add . && git commit -m "update."; git push
 
 echo "****DONE****"
