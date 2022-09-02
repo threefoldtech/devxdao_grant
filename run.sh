@@ -1,5 +1,11 @@
 set -e
 
+bash env.sh
+
+pushd $DIR_CT/books
+git pull
+popd
+
 pushd books/grant36_cloud
 bash run.sh
 popd
