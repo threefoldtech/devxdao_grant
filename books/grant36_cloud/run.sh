@@ -1,4 +1,4 @@
-set -ex
+set -e
 
 rm -rf book
 pushd src
